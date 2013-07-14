@@ -1,26 +1,11 @@
 {
-  "name": "bitstarter",
+  "name": "node-example",
   "version": "0.0.1",
-  "description": "a sample node.js app for heroku",
-  "main": "web.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "dependencies": {
-    "express": "2.5.x"
+    "express": "3.1.x"
   },
   "engines": {
-    "node": "0.8.x",
-    "npm": "1.1.x"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/bogerm/bitstarter"
-  },
-  "keywords": [
-    "node",
-    "heroku"
-  ],
-  "author": "Oleg Buklanov",
-  "license": "BSD",
+    "node": "0.10.x",
+    "npm": "1.2.x"
+  }
 }
