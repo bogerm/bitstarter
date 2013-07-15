@@ -5,6 +5,8 @@ var INDEX = "index.html";
 
 app.get('/', function(request, response) {
    var buffer = fs.readFileSync(INDEX); 
+   response.setHeader('Content-Type','text/plain');
+   response.setHeader('Content-Length',buffer.length);
    response.send(buffer);
 });
 
